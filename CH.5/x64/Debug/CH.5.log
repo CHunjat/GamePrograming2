@@ -1,0 +1,3 @@
+﻿  Struct.c
+C:\Users\UserK\Desktop\GamePrograming2\CH.5\Struct.c(41,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'pos'입니다.
+  CH.5.vcxproj -> C:\Users\UserK\Desktop\GamePrograming2\Pointer\x64\Debug\CH.5.exe
