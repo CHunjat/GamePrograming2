@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\UserK\Desktop\GamePrograming2-main\CH.8\main.c(65,8): warning C4101: 'PlayerName' :참조되지 않은 지역 변수입니다.
+  CH.8.vcxproj -> C:\Users\UserK\Desktop\GamePrograming2-main\Pointer\x64\Debug\CH.8.exe

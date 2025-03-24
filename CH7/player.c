@@ -70,7 +70,7 @@ void ShowPlayerAllItemInfo(Item* itemArray, int length)
 	{
 		  //(itemArray +i) // 배열의 시작 주소에서  
 		
-		if ((itemArray+i))->hasItem == true)
+		if ((itemArray+i))-> &hasItem == true)
 		{
 			printf("%s 아이템을 보유 했습니다. \n", (itemArray+i)->itemName);
 

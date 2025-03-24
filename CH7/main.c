@@ -62,9 +62,9 @@
 		 GotoCOORD(itemAPos);
 		 printf("※");
 
-		 InteractwithItem(&Player, &itemA); // 주소에 데이터가 변경되지 않았다. -> 값 참조(원인예상) call by value, ref
+		 InteractwithItem(&Player, &GameItems[0]); // 주소에 데이터가 변경되지 않았다. -> 값 참조(원인예상) call by value, ref
 		 ShowPlayerItemInfo(&itemA);
-		 //ShowPlayerAllItemInfo(&GameItems, 2);
+		 ShowPlayerAllItemInfo(&GameItems, 2);
 
 		 //배열을 매개변수로 받아와서 각각의 데이터에 접근한다.
 		 Sleep(100);
