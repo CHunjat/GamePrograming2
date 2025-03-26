@@ -1,10 +1,8 @@
 #include "item.h"
 
 
-char DeathItem[Item_COL][Item_COL + 1] =
+char DeathItem[Item_COL][Item_ROW + 1] =
 {
-	"***",
-	"***",
 	"***"
 };
 
