@@ -33,6 +33,15 @@ BOOL CanMoveStage(char(*stage)[STAGE_WIDTH + 1],COORD playerPos, char exitCharac
 	return 0;
 }
 
+COORD PlusCOORD(COORD pos1, COORD pos2)
+{
+	SHORT newPosX = pos1.X + pos2.Y;
+	SHORT newPosY = pos1.Y + pos2.Y;
+	COORD resultPos = { newPosX, newPosY };
+
+	return resultPos;
+}
+
 
 
 void ShowStage(char(*stage)[STAGE_WIDTH+1], COORD pos)
