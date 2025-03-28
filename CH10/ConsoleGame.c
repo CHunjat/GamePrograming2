@@ -22,15 +22,25 @@ BOOL CanMoveStage(char(*stage)[STAGE_WIDTH + 1],COORD playerPos, char exitCharac
 
 	if (stagechar == exitCharacter)
 	{
+		GoToXY(60,0);
 		printf("다음 스테이지로 이동.\n");
 		return true;
 	}
 	else
 	{
+		GoToXY(60, 0);
 		printf("이동할 수 없습니다.\n ");
 		return false;
 	}
 	return 0;
+}
+
+void NextStage(char(*stage)[STAGE_WIDTH + 1], COORD stagePos)
+{
+	// 콘솔창을 지워준다. 
+	system("cls");
+	// 다음 스테이지를 좌표를 이용해서 다시 그린다.
+	ShowStage(stage, stagePos);
 }
 
 COORD PlusCOORD(COORD pos1, COORD pos2)

@@ -20,7 +20,7 @@ typedef enum _COLOR
 
 typedef enum _Race
 {
-	HUMAN, ORC, TROLL
+	HUMAN =1, ORC, TROLL
 }RACE;
 
 typedef struct _Player
@@ -34,5 +34,9 @@ typedef struct _Player
 void GetPlayerName(Player player); // Player* <-주소로 하면 크기줄일수있음.
 void SetPlayerName(Player* playerPtr); // 
 void SetPlayerInput(Player* playerPtr);
+void SetPlayerRace(Player* playerPtr);
+
+void SetPlayer(Player* playerPtr);
+
 void SelectColor(COLOR color);
-void ShowPlayerinfo(Player* PlayerPtr);
+void ShowPlayerinfo(Player* PlayerPtr, COORD uiPos);

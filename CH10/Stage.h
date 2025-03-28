@@ -10,6 +10,7 @@ typedef struct _StagePos
 	int Y;
 }STAGEPOS;
 
+
 typedef struct _STAGE
 {
 	char* name;

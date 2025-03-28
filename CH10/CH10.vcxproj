@@ -128,12 +128,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleGame.c" />
-    <ClCompile Include="main.c" />
+    <ClCompile Include="main.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Mygame.c" />
     <ClCompile Include="player.c" />
     <ClCompile Include="Stage.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConsoleGame.h" />
+    <ClInclude Include="Mygame.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="Stage.h" />
   </ItemGroup>

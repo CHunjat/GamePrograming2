@@ -1,12 +1,10 @@
-﻿  main.c
-C:\Users\UserK\Desktop\GamePrograming2\CH10\Stage.h(18,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 '_STAGE' 왼쪽은 무시됩니다.
-  (소스 파일 'main.c'을(를) 컴파일하는 중)
+﻿  Mygame.c
+C:\Users\UserK\Desktop\GamePrograming2\CH10\Stage.h(19,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 '_STAGE' 왼쪽은 무시됩니다.
+  (소스 파일 'Mygame.c'을(를) 컴파일하는 중)
   
-C:\Users\UserK\Desktop\GamePrograming2\CH10\main.c(19,12): warning C4048: 배열 첨자가 다릅니다. 'char (*)[20]'과(와) 'char [20][21]'
-C:\Users\UserK\Desktop\GamePrograming2\CH10\main.c(30,39): warning C4048: 배열 첨자가 다릅니다. 'char (*)[20]'과(와) 'char [20][21]'
-C:\Users\UserK\Desktop\GamePrograming2\CH10\main.c(59,13): warning C4048: 배열 첨자가 다릅니다. 'char (*)[20]'과(와) 'char [20][21]'
+C:\Users\UserK\Desktop\GamePrograming2\CH10\Mygame.c(12,12): warning C4048: 배열 첨자가 다릅니다. 'char (*)[20]'과(와) 'char [20][21]'
   player.c
-C:\Users\UserK\Desktop\GamePrograming2\CH10\Stage.h(18,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 '_STAGE' 왼쪽은 무시됩니다.
+C:\Users\UserK\Desktop\GamePrograming2\CH10\Stage.h(19,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 '_STAGE' 왼쪽은 무시됩니다.
   (소스 파일 'player.c'을(를) 컴파일하는 중)
   
   코드를 생성하고 있습니다...
