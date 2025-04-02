@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\UserK\Desktop\GamePrograming2\CH.12\main.c(31,3): warning C4013: 'Sleep'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  CH.12.vcxproj -> C:\Users\UserK\Desktop\GamePrograming2\Pointer\x64\Debug\CH.12.exe
