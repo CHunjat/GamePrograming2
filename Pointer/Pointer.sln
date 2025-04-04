@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer", "Pointer.vcxproj", "{A8603672-A2A8-4E26-BB9F-E797E5F1011B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CH2", "CH2", "{F6827C29-591F-458F-AD2B-9594871DE5A4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch02", "..\ch02\ch02.vcxproj", "{154A466B-E34B-43A9-8B62-601610FF3975}"
@@ -53,6 +51,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CH13", "CH13", "{234A7914-7
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CH.13", "..\CH.13\CH.13.vcxproj", "{2D8B6530-5EDA-4DA5-BD75-DD924402636E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InventoryFunc", "InventoryFunc", "{C8D5274F-AC00-46C7-1F8D-E88E81087A52}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inventoryFunc", "..\inventoryFunc\inventoryFunc.vcxproj", "{AB329A5E-A8AC-4D32-833D-DF53CC2D807F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,14 +63,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A8603672-A2A8-4E26-BB9F-E797E5F1011B}.Debug|x64.ActiveCfg = Debug|x64
-		{A8603672-A2A8-4E26-BB9F-E797E5F1011B}.Debug|x64.Build.0 = Debug|x64
-		{A8603672-A2A8-4E26-BB9F-E797E5F1011B}.Debug|x86.ActiveCfg = Debug|Win32
-		{A8603672-A2A8-4E26-BB9F-E797E5F1011B}.Debug|x86.Build.0 = Debug|Win32
-		{A8603672-A2A8-4E26-BB9F-E797E5F1011B}.Release|x64.ActiveCfg = Release|x64
-		{A8603672-A2A8-4E26-BB9F-E797E5F1011B}.Release|x64.Build.0 = Release|x64
-		{A8603672-A2A8-4E26-BB9F-E797E5F1011B}.Release|x86.ActiveCfg = Release|Win32
-		{A8603672-A2A8-4E26-BB9F-E797E5F1011B}.Release|x86.Build.0 = Release|Win32
 		{154A466B-E34B-43A9-8B62-601610FF3975}.Debug|x64.ActiveCfg = Debug|x64
 		{154A466B-E34B-43A9-8B62-601610FF3975}.Debug|x64.Build.0 = Debug|x64
 		{154A466B-E34B-43A9-8B62-601610FF3975}.Debug|x86.ActiveCfg = Debug|Win32
@@ -165,6 +159,14 @@ Global
 		{2D8B6530-5EDA-4DA5-BD75-DD924402636E}.Release|x64.Build.0 = Release|x64
 		{2D8B6530-5EDA-4DA5-BD75-DD924402636E}.Release|x86.ActiveCfg = Release|Win32
 		{2D8B6530-5EDA-4DA5-BD75-DD924402636E}.Release|x86.Build.0 = Release|Win32
+		{AB329A5E-A8AC-4D32-833D-DF53CC2D807F}.Debug|x64.ActiveCfg = Debug|x64
+		{AB329A5E-A8AC-4D32-833D-DF53CC2D807F}.Debug|x64.Build.0 = Debug|x64
+		{AB329A5E-A8AC-4D32-833D-DF53CC2D807F}.Debug|x86.ActiveCfg = Debug|Win32
+		{AB329A5E-A8AC-4D32-833D-DF53CC2D807F}.Debug|x86.Build.0 = Debug|Win32
+		{AB329A5E-A8AC-4D32-833D-DF53CC2D807F}.Release|x64.ActiveCfg = Release|x64
+		{AB329A5E-A8AC-4D32-833D-DF53CC2D807F}.Release|x64.Build.0 = Release|x64
+		{AB329A5E-A8AC-4D32-833D-DF53CC2D807F}.Release|x86.ActiveCfg = Release|Win32
+		{AB329A5E-A8AC-4D32-833D-DF53CC2D807F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -182,6 +184,7 @@ Global
 		{BF191707-1E21-480F-9E19-0CE309729A1A} = {DDC9DC85-A56E-44C2-9790-C1B12E57067E}
 		{DB2B10A4-07E9-4084-B608-17C3DFDF5B60} = {89038101-E687-4A99-915D-DB3043FB9C07}
 		{2D8B6530-5EDA-4DA5-BD75-DD924402636E} = {234A7914-7BD5-4175-94DA-8C70CAC69B5B}
+		{AB329A5E-A8AC-4D32-833D-DF53CC2D807F} = {C8D5274F-AC00-46C7-1F8D-E88E81087A52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {027BCAF5-7101-424F-A393-D607C968AA30}
