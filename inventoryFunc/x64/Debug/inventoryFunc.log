@@ -1,3 +1,4 @@
 ﻿  main.c
-C:\Users\HighTech\Desktop\GamePrograming2-main\inventoryFunc\main.c(58,5): error C2085: 'main': 정식 매개 변수 목록에 없습니다.
-C:\Users\HighTech\Desktop\GamePrograming2-main\inventoryFunc\main.c(59,1): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\Users\UserK\Desktop\GamePrograming2\inventoryFunc\main.c(67,2): warning C4033: 'BuyItem'은(는) 값을 반환해야 합니다.
+C:\Users\UserK\Desktop\GamePrograming2\inventoryFunc\main.c(68,1): warning C4715: 'BuyItem': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  inventoryFunc.vcxproj -> C:\Users\UserK\Desktop\GamePrograming2\Pointer\x64\Debug\inventoryFunc.exe
